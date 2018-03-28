@@ -54,6 +54,7 @@ public class SHActivity extends AppCompatActivity {
         WeakReference<TextView> weak_TextView;
 		long timeStart = System.currentTimeMillis();
 		long timeTaken;
+		int power;
 
         //constructor
         public AsyncTask(TextView targetTextView,int power) {
